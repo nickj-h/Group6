@@ -1,52 +1,52 @@
 ﻿code,state,category,title,emp
-AL,Alabama,state,Paramedics,1550
-AK,Alaska,state,Paramedics,210
-AZ,Arizona,state,Paramedics,1780
-AR,Arkansas,state,Paramedics,1030
-CA,California,state,Paramedics,5150
-CO,Colorado,state,Paramedics,1620
-CT,Connecticut,state,Paramedics,1100
-DE,Delaware,state,Paramedics,360
-DC,District of Columbia,state,Paramedics,120
-FL,Florida,state,Paramedics,4970
-GA,Georgia,state,Paramedics,4460
-ID,Idaho,state,Paramedics,590
-IL,Illinois,state,Paramedics,4180
-IN,Indiana,state,Paramedics,2610
-IA,Iowa,state,Paramedics,1210
-KS,Kansas,state,Paramedics,1190
-KY,Kentucky,state,Paramedics,1930
-LA,Louisiana,state,Paramedics,1570
-ME,Maine,state,Paramedics,720
-MD,Maryland,state,Paramedics,2290
-MA,Massachusetts,state,Paramedics,2440
-MI,Michigan,state,Paramedics,2570
-MN,Minnesota,state,Paramedics,1650
-MS,Mississippi,state,Paramedics,1060
-MO,Missouri,state,Paramedics,2520
-MT,Montana,state,Paramedics,100
-NE,Nebraska,state,Paramedics,440
-NV,Nevada,state,Paramedics,940
-NH,New Hampshire,state,Paramedics,360
-NJ,New Jersey,state,Paramedics,970
-NM,New Mexico,state,Paramedics,640
-NY,New York,state,Paramedics,5660
-NC,North Carolina,state,Paramedics,4910
-ND,North Dakota,state,Paramedics,240
-OH,Ohio,state,Paramedics,4140
-OK,Oklahoma,state,Paramedics,1690
-OR,Oregon,state,Paramedics,840
-PA,Pennsylvania,state,Paramedics,4430
-RI,Rhode Island,state,Paramedics,180
-SC,South Carolina,state,Paramedics,1520
-SD,South Dakota,state,Paramedics,280
-TN,Tennessee,state,Paramedics,3360
-TX,Texas,state,Paramedics,9150
-UT,Utah,state,Paramedics,740
-VT,Vermont,state,Paramedics,130
-VA,Virginia,state,Paramedics,1530
-WA,Washington,state,Paramedics,2280
-WV,West Virginia,state,Paramedics,930
-WI,Wisconsin,state,Paramedics,1880
-WY,Wyoming,state,Paramedics,160
-PR,Puerto Rico,state,Paramedics,1130
+AL,Alabama,state,Paramedics,1550.00
+AK,Alaska,state,Paramedics,210.00
+AZ,Arizona,state,Paramedics,1780.00
+AR,Arkansas,state,Paramedics,1030.00
+CA,California,state,Paramedics,5150.00
+CO,Colorado,state,Paramedics,1620.00
+CT,Connecticut,state,Paramedics,1100.00
+DE,Delaware,state,Paramedics,360.00
+DC,District of Columbia,state,Paramedics,120.00
+FL,Florida,state,Paramedics,4970.00
+GA,Georgia,state,Paramedics,4460.00
+ID,Idaho,state,Paramedics,590.00
+IL,Illinois,state,Paramedics,4180.00
+IN,Indiana,state,Paramedics,2610.00
+IA,Iowa,state,Paramedics,1210.00
+KS,Kansas,state,Paramedics,1190.00
+KY,Kentucky,state,Paramedics,1930.00
+LA,Louisiana,state,Paramedics,1570.00
+ME,Maine,state,Paramedics,720.00
+MD,Maryland,state,Paramedics,2290.00
+MA,Massachusetts,state,Paramedics,2440.00
+MI,Michigan,state,Paramedics,2570.00
+MN,Minnesota,state,Paramedics,1650.00
+MS,Mississippi,state,Paramedics,1060.00
+MO,Missouri,state,Paramedics,2520.00
+MT,Montana,state,Paramedics,100.00
+NE,Nebraska,state,Paramedics,440.00
+NV,Nevada,state,Paramedics,940.00
+NH,New Hampshire,state,Paramedics,360.00
+NJ,New Jersey,state,Paramedics,970.00
+NM,New Mexico,state,Paramedics,640.00
+NY,New York,state,Paramedics,5660.00
+NC,North Carolina,state,Paramedics,4910.00
+ND,North Dakota,state,Paramedics,240.00
+OH,Ohio,state,Paramedics,4140.00
+OK,Oklahoma,state,Paramedics,1690.00
+OR,Oregon,state,Paramedics,840.00
+PA,Pennsylvania,state,Paramedics,4430.00
+RI,Rhode Island,state,Paramedics,180.00
+SC,South Carolina,state,Paramedics,1520.00
+SD,South Dakota,state,Paramedics,280.00
+TN,Tennessee,state,Paramedics,3360.00
+TX,Texas,state,Paramedics,9150.00
+UT,Utah,state,Paramedics,740.00
+VT,Vermont,state,Paramedics,130.00
+VA,Virginia,state,Paramedics,1530.00
+WA,Washington,state,Paramedics,2280.00
+WV,West Virginia,state,Paramedics,930.00
+WI,Wisconsin,state,Paramedics,1880.00
+WY,Wyoming,state,Paramedics,160.00
+PR,Puerto Rico,state,Paramedics,1130.00
