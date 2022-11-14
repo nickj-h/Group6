@@ -1,52 +1,52 @@
 ﻿code,state,category,title,emp
-AL,Alabama,state,Computer Programmers,"2,110.00"
-AK,Alaska,state,Computer Programmers,450.00
-AZ,Arizona,state,Computer Programmers,"2,390.00"
-AR,Arkansas,state,Computer Programmers,"1,600.00"
-CA,California,state,Computer Programmers,"23,960.00"
-CO,Colorado,state,Computer Programmers,"1,670.00"
-CT,Connecticut,state,Computer Programmers,"2,500.00"
-DE,Delaware,state,Computer Programmers,550.00
-DC,District of Columbia,state,Computer Programmers,840.00
-FL,Florida,state,Computer Programmers,"7,110.00"
-GA,Georgia,state,Computer Programmers,"3,770.00"
-ID,Idaho,state,Computer Programmers,180.00
-IL,Illinois,state,Computer Programmers,"1,180.00"
-IN,Indiana,state,Computer Programmers,"3,610.00"
-IA,Iowa,state,Computer Programmers,"2,560.00"
-KS,Kansas,state,Computer Programmers,"1,310.00"
-KY,Kentucky,state,Computer Programmers,"1,160.00"
-LA,Louisiana,state,Computer Programmers,"1,480.00"
-ME,Maine,state,Computer Programmers,"1,240.00"
-MD,Maryland,state,Computer Programmers,360.00
-MA,Massachusetts,state,Computer Programmers,"4,940.00"
-MI,Michigan,state,Computer Programmers,"3,730.00"
-MN,Minnesota,state,Computer Programmers,"1,430.00"
-MS,Mississippi,state,Computer Programmers,450.00
-MO,Missouri,state,Computer Programmers,"2,080.00"
-MT,Montana,state,Computer Programmers,"1,050.00"
-NE,Nebraska,state,Computer Programmers,"1,860.00"
-NV,Nevada,state,Computer Programmers,"1,320.00"
-NH,New Hampshire,state,Computer Programmers,790.00
-NJ,New Jersey,state,Computer Programmers,"6,520.00"
-NM,New Mexico,state,Computer Programmers,880.00
-NY,New York,state,Computer Programmers,"12,610.00"
-NC,North Carolina,state,Computer Programmers,"4,580.00"
-ND,North Dakota,state,Computer Programmers,380.00
-OH,Ohio,state,Computer Programmers,"3,420.00"
-OK,Oklahoma,state,Computer Programmers,"1,260.00"
-OR,Oregon,state,Computer Programmers,"1,590.00"
-PA,Pennsylvania,state,Computer Programmers,"5,760.00"
-RI,Rhode Island,state,Computer Programmers,430.00
-SC,South Carolina,state,Computer Programmers,"1,940.00"
-SD,South Dakota,state,Computer Programmers,170.00
-TN,Tennessee,state,Computer Programmers,"1,350.00"
-TX,Texas,state,Computer Programmers,"14,220.00"
-UT,Utah,state,Computer Programmers,"2,700.00"
-VT,Vermont,state,Computer Programmers,130.00
-VA,Virginia,state,Computer Programmers,"4,010.00"
-WA,Washington,state,Computer Programmers,"3,850.00"
-WV,West Virginia,state,Computer Programmers,380.00
-WI,Wisconsin,state,Computer Programmers,"3,390.00"
-WY,Wyoming,state,Computer Programmers,70.00
-PR,Puerto Rico,state,Computer Programmers,"1,190.00"
+AL,Alabama,state,Computer Programmers," 2,110.00 "
+AK,Alaska,state,Computer Programmers, 450.00 
+AZ,Arizona,state,Computer Programmers," 2,390.00 "
+AR,Arkansas,state,Computer Programmers," 1,600.00 "
+CA,California,state,Computer Programmers," 23,960.00 "
+CO,Colorado,state,Computer Programmers," 1,670.00 "
+CT,Connecticut,state,Computer Programmers," 2,500.00 "
+DE,Delaware,state,Computer Programmers, 550.00 
+DC,District of Columbia,state,Computer Programmers, 840.00 
+FL,Florida,state,Computer Programmers," 7,110.00 "
+GA,Georgia,state,Computer Programmers," 3,770.00 "
+ID,Idaho,state,Computer Programmers, 180.00 
+IL,Illinois,state,Computer Programmers," 1,180.00 "
+IN,Indiana,state,Computer Programmers," 3,610.00 "
+IA,Iowa,state,Computer Programmers," 2,560.00 "
+KS,Kansas,state,Computer Programmers," 1,310.00 "
+KY,Kentucky,state,Computer Programmers," 1,160.00 "
+LA,Louisiana,state,Computer Programmers," 1,480.00 "
+ME,Maine,state,Computer Programmers," 1,240.00 "
+MD,Maryland,state,Computer Programmers, 360.00 
+MA,Massachusetts,state,Computer Programmers," 4,940.00 "
+MI,Michigan,state,Computer Programmers," 3,730.00 "
+MN,Minnesota,state,Computer Programmers," 1,430.00 "
+MS,Mississippi,state,Computer Programmers, 450.00 
+MO,Missouri,state,Computer Programmers," 2,080.00 "
+MT,Montana,state,Computer Programmers," 1,050.00 "
+NE,Nebraska,state,Computer Programmers," 1,860.00 "
+NV,Nevada,state,Computer Programmers," 1,320.00 "
+NH,New Hampshire,state,Computer Programmers, 790.00 
+NJ,New Jersey,state,Computer Programmers," 6,520.00 "
+NM,New Mexico,state,Computer Programmers, 880.00 
+NY,New York,state,Computer Programmers," 12,610.00 "
+NC,North Carolina,state,Computer Programmers," 4,580.00 "
+ND,North Dakota,state,Computer Programmers, 380.00 
+OH,Ohio,state,Computer Programmers," 3,420.00 "
+OK,Oklahoma,state,Computer Programmers," 1,260.00 "
+OR,Oregon,state,Computer Programmers," 1,590.00 "
+PA,Pennsylvania,state,Computer Programmers," 5,760.00 "
+RI,Rhode Island,state,Computer Programmers, 430.00 
+SC,South Carolina,state,Computer Programmers," 1,940.00 "
+SD,South Dakota,state,Computer Programmers, 170.00 
+TN,Tennessee,state,Computer Programmers," 1,350.00 "
+TX,Texas,state,Computer Programmers," 14,220.00 "
+UT,Utah,state,Computer Programmers," 2,700.00 "
+VT,Vermont,state,Computer Programmers, 130.00 
+VA,Virginia,state,Computer Programmers," 4,010.00 "
+WA,Washington,state,Computer Programmers," 3,850.00 "
+WV,West Virginia,state,Computer Programmers, 380.00 
+WI,Wisconsin,state,Computer Programmers," 3,390.00 "
+WY,Wyoming,state,Computer Programmers, 70.00 
+PR,Puerto Rico,state,Computer Programmers," 1,190.00 "
