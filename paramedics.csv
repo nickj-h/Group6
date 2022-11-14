@@ -1,52 +1,52 @@
 ﻿code,state,category,title,emp
-AL,Alabama,state,Paramedics,"1,550"
+AL,Alabama,state,Paramedics,1550
 AK,Alaska,state,Paramedics,210
-AZ,Arizona,state,Paramedics,"1,780"
-AR,Arkansas,state,Paramedics,"1,030"
-CA,California,state,Paramedics,"5,150"
-CO,Colorado,state,Paramedics,"1,620"
-CT,Connecticut,state,Paramedics,"1,100"
+AZ,Arizona,state,Paramedics,1780
+AR,Arkansas,state,Paramedics,1030
+CA,California,state,Paramedics,5150
+CO,Colorado,state,Paramedics,1620
+CT,Connecticut,state,Paramedics,1100
 DE,Delaware,state,Paramedics,360
 DC,District of Columbia,state,Paramedics,120
-FL,Florida,state,Paramedics,"4,970"
-GA,Georgia,state,Paramedics,"4,460"
+FL,Florida,state,Paramedics,4970
+GA,Georgia,state,Paramedics,4460
 ID,Idaho,state,Paramedics,590
-IL,Illinois,state,Paramedics,"4,180"
-IN,Indiana,state,Paramedics,"2,610"
-IA,Iowa,state,Paramedics,"1,210"
-KS,Kansas,state,Paramedics,"1,190"
-KY,Kentucky,state,Paramedics,"1,930"
-LA,Louisiana,state,Paramedics,"1,570"
+IL,Illinois,state,Paramedics,4180
+IN,Indiana,state,Paramedics,2610
+IA,Iowa,state,Paramedics,1210
+KS,Kansas,state,Paramedics,1190
+KY,Kentucky,state,Paramedics,1930
+LA,Louisiana,state,Paramedics,1570
 ME,Maine,state,Paramedics,720
-MD,Maryland,state,Paramedics,"2,290"
-MA,Massachusetts,state,Paramedics,"2,440"
-MI,Michigan,state,Paramedics,"2,570"
-MN,Minnesota,state,Paramedics,"1,650"
-MS,Mississippi,state,Paramedics,"1,060"
-MO,Missouri,state,Paramedics,"2,520"
+MD,Maryland,state,Paramedics,2290
+MA,Massachusetts,state,Paramedics,2440
+MI,Michigan,state,Paramedics,2570
+MN,Minnesota,state,Paramedics,1650
+MS,Mississippi,state,Paramedics,1060
+MO,Missouri,state,Paramedics,2520
 MT,Montana,state,Paramedics,100
 NE,Nebraska,state,Paramedics,440
 NV,Nevada,state,Paramedics,940
 NH,New Hampshire,state,Paramedics,360
 NJ,New Jersey,state,Paramedics,970
 NM,New Mexico,state,Paramedics,640
-NY,New York,state,Paramedics,"5,660"
-NC,North Carolina,state,Paramedics,"4,910"
+NY,New York,state,Paramedics,5660
+NC,North Carolina,state,Paramedics,4910
 ND,North Dakota,state,Paramedics,240
-OH,Ohio,state,Paramedics,"4,140"
-OK,Oklahoma,state,Paramedics,"1,690"
+OH,Ohio,state,Paramedics,4140
+OK,Oklahoma,state,Paramedics,1690
 OR,Oregon,state,Paramedics,840
-PA,Pennsylvania,state,Paramedics,"4,430"
+PA,Pennsylvania,state,Paramedics,4430
 RI,Rhode Island,state,Paramedics,180
-SC,South Carolina,state,Paramedics,"1,520"
+SC,South Carolina,state,Paramedics,1520
 SD,South Dakota,state,Paramedics,280
-TN,Tennessee,state,Paramedics,"3,360"
-TX,Texas,state,Paramedics,"9,150"
+TN,Tennessee,state,Paramedics,3360
+TX,Texas,state,Paramedics,9150
 UT,Utah,state,Paramedics,740
 VT,Vermont,state,Paramedics,130
-VA,Virginia,state,Paramedics,"1,530"
-WA,Washington,state,Paramedics,"2,280"
+VA,Virginia,state,Paramedics,1530
+WA,Washington,state,Paramedics,2280
 WV,West Virginia,state,Paramedics,930
-WI,Wisconsin,state,Paramedics,"1,880"
+WI,Wisconsin,state,Paramedics,1880
 WY,Wyoming,state,Paramedics,160
-PR,Puerto Rico,state,Paramedics,"1,130"
+PR,Puerto Rico,state,Paramedics,1130
