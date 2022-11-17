@@ -8,7 +8,7 @@ hello = Blueprint('hello', __name__)
 
 @hello.route('/')
 def show_map():
-    return render_template('testmap.html')
+    return render_template('testmap4.html')
    # return 'Hello, World!'
 
 '''

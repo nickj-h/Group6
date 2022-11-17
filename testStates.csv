@@ -1,0 +1,88 @@
+﻿statecode,code,title,Level,employment,Employment RSE,"Employment per 1,000 jobs",Location quotient,Median hourly wage,Mean hourly wage,Annual mean wage,Mean wage RSE
+AL,17-0000,Architecture and Engineering Occupations,major,46060,1.90%,23.889,1.38,$39.66 ,$44.88 ,"$93,350 ",0.90%
+AL,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",major,17300,3.30%,8.975,0.7,$18.56 ,$23.34 ,"$48,550 ",1.90%
+AL,37-0000,Building and Grounds Cleaning and Maintenance Occupations,major,53670,1.30%,27.836,0.95,$11.56 ,$13.13 ,"$27,300 ",0.70%
+AL,13-0000,Business and Financial Operations Occupations,major,89400,1.20%,46.365,0.72,$30.37 ,$35.92 ,"$74,720 ",0.70%
+AL,21-0000,Community and Social Service Occupations,major,20220,2.10%,10.486,0.66,$21.89 ,$22.05 ,"$45,860 ",0.60%
+AL,15-0000,Computer and Mathematical Occupations,major,46460,2.20%,24.095,0.73,$38.40 ,$42.55 ,"$88,510 ",1.10%
+AL,47-0000,Construction and Extraction Occupations,major,84130,1.20%,43.634,1.05,$18.29 ,$21.11 ,"$43,910 ",0.50%
+AL,25-0000,Educational Instruction and Library Occupations,major,96070,1.30%,49.827,0.86,$23.91 ,$26.26 ,"$54,620 ",0.70%
+AL,45-0000,"Farming, Fishing, and Forestry Occupations",major,6530,4.10%,3.387,1.05,$15.22 ,$17.16 ,"$35,690 ",1.60%
+AL,35-0000,Food Preparation and Serving Related Occupations,major,159350,1.10%,82.644,1.04,$9.95 ,$11.16 ,"$23,210 ",0.80%
+AL,29-0000,Healthcare Practitioners and Technical Occupations,major,131260,0.70%,68.076,1.09,$28.50 ,$34.51 ,"$71,790 ",1.10%
+AL,31-0000,Healthcare Support Occupations,major,65550,1.20%,33.999,0.73,$12.22 ,$13.43 ,"$27,940 ",0.60%
+AL,49-0000,"Installation, Maintenance, and Repair Occupations",major,94520,1.00%,49.022,1.24,$22.78 ,$24.57 ,"$51,100 ",0.50%
+AL,23-0000,Legal Occupations,major,10900,4.50%,5.654,0.68,$35.30 ,$44.87 ,"$93,320 ",3.10%
+AL,19-0000,"Life, Physical, and Social Science Occupations",major,11460,2.20%,5.942,0.66,$29.84 ,$33.36 ,"$69,380 ",1.30%
+AL,11-0000,Management Occupations,major,96070,1.30%,49.827,0.79,$45.51 ,$51.06 ,"$106,210 ",0.60%
+AL,43-0000,Office and Administrative Support Occupations,major,234120,0.70%,121.424,0.93,$17.28 ,$17.88 ,"$37,190 ",0.30%
+AL,39-0000,Personal Care and Service Occupations,major,29800,1.90%,15.454,0.85,$11.22 ,$13.49 ,"$28,050 ",1.30%
+AL,51-0000,Production Occupations,major,200950,0.80%,104.223,1.75,$17.35 ,$18.85 ,"$39,210 ",0.50%
+AL,33-0000,Protective Service Occupations,major,46620,1.60%,24.181,1.01,$18.22 ,$20.06 ,"$41,730 ",0.70%
+AL,41-0000,Sales and Related Occupations,major,197660,1.10%,102.517,1.09,$13.64 ,$17.90 ,"$37,230 ",0.90%
+AL,53-0000,Transportation and Material Moving Occupations,major,190000,1.00%,98.544,1.1,$14.48 ,$17.06 ,"$35,480 ",0.60%
+AK,11-0000,Management Occupations,major,22750,1.60%,76.903,1.22,$47.51 ,$51.99 ,"$108,140 ",0.90%
+AK,13-0000,Business and Financial Operations Occupations,major,12740,1.90%,43.057,0.67,$37.16 ,$39.38 ,"$81,910 ",0.90%
+AK,15-0000,Computer and Mathematical Occupations,major,4910,4.50%,16.593,0.5,$38.01 ,$40.07 ,"$83,340 ",2.10%
+AK,17-0000,Architecture and Engineering Occupations,major,6840,4.30%,23.119,1.34,$47.15 ,$49.96 ,"$103,910 ",1.60%
+AK,19-0000,"Life, Physical, and Social Science Occupations",major,6700,2.10%,22.632,2.5,$36.00 ,$37.71 ,"$78,430 ",1.00%
+AK,21-0000,Community and Social Service Occupations,major,6400,2.80%,21.614,1.36,$25.45 ,$27.91 ,"$58,040 ",1.10%
+AK,23-0000,Legal Occupations,major,2260,4.00%,7.649,0.91,$40.33 ,$46.52 ,"$96,760 ",2.00%
+AK,25-0000,Educational Instruction and Library Occupations,major,19260,1.90%,65.109,1.12,$29.31 ,$30.05 ,"$62,510 ",1.40%
+AK,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",major,3090,4.40%,10.433,0.81,$23.04 ,$24.85 ,"$51,700 ",1.60%
+AK,29-0000,Healthcare Practitioners and Technical Occupations,major,19460,1.50%,65.754,1.05,$38.72 ,$50.80 ,"$105,660 ",2.10%
+AK,31-0000,Healthcare Support Occupations,major,12830,2.40%,43.356,0.92,$18.06 ,$20.23 ,"$42,080 ",1.00%
+AK,33-0000,Protective Service Occupations,major,8510,2.10%,28.776,1.2,$28.47 ,$30.99 ,"$64,470 ",2.50%
+AK,35-0000,Food Preparation and Serving Related Occupations,major,23410,1.80%,79.137,1,$14.14 ,$15.74 ,"$32,730 ",1.40%
+AK,37-0000,Building and Grounds Cleaning and Maintenance Occupations,major,9000,3.20%,30.42,1.04,$17.45 ,$18.02 ,"$37,490 ",1.10%
+AK,39-0000,Personal Care and Service Occupations,major,5370,5.00%,18.136,1,$14.77 ,$18.64 ,"$38,760 ",3.10%
+AK,41-0000,Sales and Related Occupations,major,21240,1.50%,71.773,0.76,$17.34 ,$19.95 ,"$41,500 ",1.10%
+AK,43-0000,Office and Administrative Support Occupations,major,38800,1.10%,131.151,1.01,$22.56 ,$23.15 ,"$48,150 ",0.40%
+AK,45-0000,"Farming, Fishing, and Forestry Occupations",major,610,17.20%,2.056,0.64,$17.34 ,$21.15 ,"$43,990 ",5.70%
+AK,47-0000,Construction and Extraction Occupations,major,18280,1.90%,61.797,1.49,$30.06 ,$34.34 ,"$71,420 ",1.40%
+AK,49-0000,"Installation, Maintenance, and Repair Occupations",major,16740,3.10%,56.586,1.43,$29.34 ,$31.84 ,"$66,230 ",1.30%
+AK,51-0000,Production Occupations,major,9630,3.80%,32.548,0.55,$22.81 ,$25.93 ,"$53,930 ",1.80%
+AZ,53-0000,Transportation and Material Moving Occupations,major,257420,1.10%,89.36,1,$17.72 ,$19.83 ,"$41,240 ",0.40%
+AZ,41-0000,Sales and Related Occupations,major,265370,1.10%,92.122,0.98,$14.54 ,$21.55 ,"$44,830 ",0.90%
+AZ,33-0000,Protective Service Occupations,major,80960,0.90%,28.103,1.17,$21.25 ,$24.21 ,"$50,360 ",0.50%
+AZ,51-0000,Production Occupations,major,113790,1.30%,39.5,0.66,$18.13 ,$20.62 ,"$42,900 ",0.50%
+AZ,39-0000,Personal Care and Service Occupations,major,48150,2.40%,16.716,0.92,$14.30 ,$17.31 ,"$36,000 ",1.30%
+AZ,43-0000,Office and Administrative Support Occupations,major,432850,0.70%,150.26,1.16,$18.10 ,$20.11 ,"$41,830 ",0.30%
+AZ,11-0000,Management Occupations,major,187280,1.20%,65.012,1.03,$47.08 ,$52.31 ,"$108,810 ",1.30%
+AZ,19-0000,"Life, Physical, and Social Science Occupations",major,19390,2.50%,6.732,0.74,$30.16 ,$33.70 ,"$70,090 ",1.20%
+AZ,23-0000,Legal Occupations,major,23740,2.90%,8.242,0.99,$36.96 ,$43.75 ,"$91,000 ",3.70%
+AZ,49-0000,"Installation, Maintenance, and Repair Occupations",major,120500,1.70%,41.832,1.06,$22.75 ,$24.37 ,"$50,690 ",0.60%
+AZ,31-0000,Healthcare Support Occupations,major,131930,1.70%,45.798,0.98,$14.29 ,$16.32 ,"$33,940 ",0.50%
+AZ,29-0000,Healthcare Practitioners and Technical Occupations,major,173790,1.10%,60.328,0.97,$36.66 ,$44.15 ,"$91,820 ",0.90%
+AZ,35-0000,Food Preparation and Serving Related Occupations,major,244670,1.30%,84.936,1.07,$14.18 ,$16.51 ,"$34,340 ",1.20%
+AZ,45-0000,"Farming, Fishing, and Forestry Occupations",major,10290,6.20%,3.571,1.11,$14.08 ,$15.99 ,"$33,260 ",1.10%
+AZ,25-0000,Educational Instruction and Library Occupations,major,138450,0.60%,48.061,0.83,$23.06 ,$25.05 ,"$52,100 ",0.40%
+AZ,47-0000,Construction and Extraction Occupations,major,135000,1.50%,46.865,1.13,$22.77 ,$24.11 ,"$50,150 ",0.70%
+AZ,15-0000,Computer and Mathematical Occupations,major,103280,1.70%,35.852,1.09,$40.06 ,$44.48 ,"$92,530 ",1.90%
+AZ,21-0000,Community and Social Service Occupations,major,44960,1.80%,15.607,0.98,$22.69 ,$23.65 ,"$49,200 ",0.70%
+AZ,13-0000,Business and Financial Operations Occupations,major,192980,1.10%,66.992,1.04,$30.28 ,$35.29 ,"$73,390 ",0.90%
+AZ,37-0000,Building and Grounds Cleaning and Maintenance Occupations,major,79510,1.10%,27.602,0.95,$14.41 ,$15.96 ,"$33,190 ",0.60%
+AZ,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",major,29210,3.70%,10.141,0.79,$22.83 ,$26.37 ,"$54,840 ",2.10%
+AZ,17-0000,Architecture and Engineering Occupations,major,47150,1.90%,16.368,0.95,$38.16 ,$43.71 ,"$90,910 ",0.90%
+AR,11-0000,Management Occupations,major,73670,1.30%,61.855,0.98,$37.09 ,$44.45 ,"$92,460 ",0.90%
+AR,13-0000,Business and Financial Operations Occupations,major,57510,1.00%,48.287,0.75,$29.11 ,$32.31 ,"$67,190 ",0.60%
+AR,15-0000,Computer and Mathematical Occupations,major,22660,2.20%,19.029,0.58,$36.89 ,$36.70 ,"$76,340 ",1.60%
+AR,17-0000,Architecture and Engineering Occupations,major,10680,2.00%,8.964,0.52,$33.83 ,$35.78 ,"$74,420 ",1.40%
+AR,19-0000,"Life, Physical, and Social Science Occupations",major,6900,3.70%,5.796,0.64,$28.48 ,$30.53 ,"$63,510 ",1.20%
+AR,21-0000,Community and Social Service Occupations,major,13450,1.80%,11.29,0.71,$18.50 ,$21.75 ,"$45,230 ",0.80%
+AR,23-0000,Legal Occupations,major,6610,5.00%,5.553,0.66,$24.50 ,$35.53 ,"$73,890 ",4.50%
+AR,25-0000,Educational Instruction and Library Occupations,major,72210,0.70%,60.632,1.04,$22.84 ,$23.97 ,"$49,850 ",0.60%
+AR,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",major,10800,4.00%,9.071,0.7,$18.33 ,$23.14 ,"$48,140 ",1.80%
+AR,29-0000,Healthcare Practitioners and Technical Occupations,major,79780,0.80%,66.987,1.07,$28.68 ,$37.52 ,"$78,040 ",1.80%
+AR,31-0000,Healthcare Support Occupations,major,48980,1.60%,41.124,0.88,$13.58 ,$14.08 ,"$29,280 ",0.50%
+AR,33-0000,Protective Service Occupations,major,26180,1.40%,21.978,0.91,$17.86 ,$19.38 ,"$40,310 ",1.10%
+AR,35-0000,Food Preparation and Serving Related Occupations,major,101030,0.90%,84.826,1.07,$11.39 ,$12.33 ,"$25,650 ",0.50%
+AR,37-0000,Building and Grounds Cleaning and Maintenance Occupations,major,32500,1.60%,27.285,0.94,$11.92 ,$13.61 ,"$28,300 ",0.60%
+AR,39-0000,Personal Care and Service Occupations,major,16090,3.00%,13.506,0.74,$11.48 ,$13.78 ,"$28,660 ",1.00%
+AR,41-0000,Sales and Related Occupations,major,118330,0.90%,99.356,1.06,$13.63 ,$18.38 ,"$38,220 ",1.10%
+AR,43-0000,Office and Administrative Support Occupations,major,144260,0.90%,121.126,0.93,$17.06 ,$17.86 ,"$37,150 ",0.30%
+AR,45-0000,"Farming, Fishing, and Forestry Occupations",major,5000,3.70%,4.196,1.31,$14.26 ,$17.26 ,"$35,910 ",1.50%
+AR,47-0000,Construction and Extraction Occupations,major,44830,1.90%,37.637,0.91,$18.10 ,$20.15 ,"$41,910 ",0.80%
+AR,49-0000,"Installation, Maintenance, and Repair Occupations",major,56430,1.20%,47.38,1.2,$21.49 ,$22.28 ,"$46,340 ",0.50%
+AR,51-0000,Production Occupations,major,109230,0.80%,91.714,1.54,$17.40 ,$18.47 ,"$38,420 ",0.50%
+AR,53-0000,Transportation and Material Moving Occupations,major,133880,0.80%,112.406,1.25,$14.75 ,$18.27 ,"$38,000 ",0.80%
