@@ -11,7 +11,7 @@ def show_map():
     return render_template('testmap4.html')
    # return 'Hello, World!'
 
-#uses PlotlyJS to have user-interactive map
+#uses PlotlyJS to have user-interactive map. use /js route in URL
 @hello.route('js')
 def show_jsmap():
     return render_template('map_plotlyJS.html')
