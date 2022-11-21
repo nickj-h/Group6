@@ -10,7 +10,13 @@ hello = Blueprint('hello', __name__)
 def show_map():
     return render_template('testmap4.html')
    # return 'Hello, World!'
-
+    
+#renders the florida state interface data. This gets called when a state is clicked
+@hello.route('florida')
+def show_fl():
+    return render_template('florida.html')
+    
+    
 '''
 @hello.route('/')
 def hello_world():
