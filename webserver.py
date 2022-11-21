@@ -13,7 +13,7 @@ def show_map():
 
 #uses PlotlyJS to have user-interactive map
 @hello.route('js')
-def show_fl():
+def show_jsmap():
     return render_template('map_plotlyJS.html')
     
 #renders the florida state interface data. This gets called when a state is clicked
