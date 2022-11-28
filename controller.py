@@ -1,31 +1,67 @@
 from flask import Flask, request, render_template
 import pickle
 
+# a dictionary for storing accounts
+accounts = dict()
+
 app = Flask(__name__)
 
 
+#  first, return a login page
 @app.route('/')
-def hello_world():
+def create_page():
     return render_template("login.html")
 
 
-Accounts = {'softwareengineers': 'makemoney'}
+# test account
+accounts['softwareengineers'] = 'makemoney'
 
 
-@app.route('/form_login', methods=['POST', 'GET'])
-def login():
-    name = request.form['username']
-    pwd = request.form['password']
-    if name not in Accounts:
-        return render_template('login.html', info='Invalid Username')
-    else:
-        if Accounts[name] != pwd:
-            return render_template('login.html', info='Invalid Password')
+@app.route('/pythonProject/templates/register', methods=['GET', 'POST'])
+def register():
+    newName = ''
+    newPwd = ''
+    if request.method == 'POST':
+        newName = request.form['username']
+        newPwd = request.form['password']
+        # if username is blank
+        if newName == '':
+            return render_template('register.html', msg='Invalid Username!')
+        # if username already in the accounts
+        elif newName in accounts:
+            return render_template('register.html', msg='Username Already Exists!')
+        # if password is blank
+        elif newName not in accounts and newPwd == '':
+            return render_template('register.html', msg='Invalid Password!')
+        # add new username to the accounts
         else:
+            accounts[newName] = newPwd
+            return render_template('register.html', msg='Successfully Signed Up!')
+    return render_template('register.html')
+
+
+@app.route('/pythonProject/templates/login', methods=['GET', 'POST'])
+def login():
+    name = ''
+    pwd = ''
+    if request.method == 'POST':
+        name = request.form['username']
+        pwd = request.form['password']
+        # if username does not exist
+        if name not in accounts:
+            return render_template('login.html', msg='Invalid Username')
+        # if password invalid
+        elif accounts[name] != pwd:
+            return render_template('login.html', msg='Invalid Password')
+        # if username and password both are correct
+        elif name in accounts and accounts[name] == pwd:
             # set the homepage here
-            return render_template('homepage.html', name=name)
+            # direct to the homepage
+            return render_template('homepage.html')
+    return render_template('login.html')
 
 
 if __name__ == '__main__':
     app.run()
 
+# reference:https://codeshack.io/login-system-python-flask-mysql/
