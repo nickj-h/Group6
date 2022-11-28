@@ -22,19 +22,21 @@ fig.write_html("templates/testmap.html")
 
 #testing HERE
 
-df2 = pd.read_csv('testStates.csv')
-df2 = df2.loc[df2['title'] == "Legal Occupations"]
+df2 = pd.read_csv('stateInfo.csv')
+df2 = df2.loc[df2['title'] == "Life, Physical, and Social Science Occupations"]
 
 fig2 = go.Figure(data=go.Choropleth(
     locations=df2['statecode'], # Spatial coordinates
     z = df2['employment'].astype(float), # Data to be color-coded
     locationmode = 'USA-states', # set of locations match entries in `locations`
     colorscale = 'Reds',
-    colorbar_title = "Millions USD",
+    colorbar_title = "Total Jobs",
+
 ))
 
 fig2.update_layout(
-    title_text = 'Legal Occupations',
+    title_text = 'Life, Physical, and Social Science Occupations',
     geo_scope='usa', # limit map scope to USA
+
 )
-fig2.write_html("templates/testmap4.html" )
+fig2.write_html("templates/life.html" )
