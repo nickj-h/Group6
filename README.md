@@ -1,9 +1,11 @@
 
 # Group6
 
-Webserver renders the .html file in '/templates/testmap.html' You can generate the testmap by running the generate_map.py file.
+Webserver renders the files in in '/templates' 
 
-the /js route displays a javascript version of a us map. It has the ability to route to different pages based on user clicks
+/homepage is the homepage with selectable filters
+/stateMap/main is the map with clickable states
+Can access individual states with /stateMap/id where id is the 2-character state code (e.g. florida is FL)
 
 data:
 https://www.bls.gov/oes/current/oessrcst.htm
