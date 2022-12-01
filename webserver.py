@@ -96,15 +96,15 @@ def show_transportation():
     return render_template('transportation.html')
 
 
-#uses PlotlyJS to have user-interactive map. use /js route in URL
-@hello.route('js')
-def show_jsmap():
-    return render_template('map_plotlyJS.html')
+#/stateMap/main is the default map.
+# upon clicking a state, javascript calls the /stateMap/id route where id is the 2-letter state code  e.g. stateMap/FL
+# and flask serves the appropriate data
 
-#renders the florida state interface data. This gets called when a state is clicked
-@hello.route('florida')
-def show_fl():
-    return render_template('florida.html')
+@hello.route('stateMap/<id>')
+def show_stateMap(id):
+    if id == "main":
+        return render_template('stateMap.html') 
+    return render_template('stateData/'+id+'.html')
 
 '''
 @hello.route('/')
