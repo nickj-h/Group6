@@ -74,6 +74,7 @@ def show_personal():
 def show_sales():
     return render_template('sales.html')
 
+
 @hello.route('office')
 def show_office():
     return render_template('office.html')
