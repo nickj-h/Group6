@@ -10,8 +10,7 @@ mySearch = list()
 accounts['softwareengineers'] = 'makemoney'
 
 
-@app.route('/login')
-@app.route('/login', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def login():
     name = ''
     pwd = ''
@@ -29,7 +28,7 @@ def login():
             # set the homepage here
             # direct to the homepage
             # return render_template('homepage.html')
-            return redirect("http://127.0.0.1:5000/", code=302)
+            return render_template('homepage.html')
             # return show_homepage()
     return render_template('login.html')
 
@@ -63,7 +62,7 @@ def save_search():
         mySearch.append(page)
 
 
-@app.route('/')
+@app.route('/homepage')
 def show_homepage():
     return render_template('homepage.html', data=mySearch)
 
