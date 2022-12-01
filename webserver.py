@@ -1,5 +1,5 @@
 from flask import Flask, Blueprint, render_template
-from flask import Flask, request, render_template,redirect, url_for
+from flask import Flask, request, render_template, redirect, url_for
 import pickle
 
 app = Flask(__name__)
@@ -28,10 +28,11 @@ def login():
         elif name in accounts and accounts[name] == pwd:
             # set the homepage here
             # direct to the homepage
-            #return render_template('homepage.html')
+            # return render_template('homepage.html')
             return redirect("http://127.0.0.1:5000/", code=302)
-            #return show_homepage()
+            # return show_homepage()
     return render_template('login.html')
+
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
@@ -55,120 +56,182 @@ def register():
             return render_template('register.html', msg='Successfully Signed Up!')
     return render_template('register.html')
 
-#Need to incorporate this save function
-'''
-@app.route('/pythonProject/templates/homepage', methods=['GET', 'POST'])
-def home():
-    if request.method == 'POST':
-        page = request.form['save_search']
-        if page not in mySearch:
-            mySearch.append(page)
-    return render_template('homepage.html', data=mySearch)
-'''
+
+def save_search():
+    page = request.form['save_search']
+    if page not in mySearch:
+        mySearch.append(page)
+
 
 @app.route('/')
 def show_homepage():
-    return render_template('homepage.html')
+    return render_template('homepage.html', data=mySearch)
 
-@app.route('/management')
+
+@app.route('/management', methods=['GET', 'POST'])
 def show_management():
+    if request.method == 'POST':
+        save_search()
     return render_template('management.html')
 
-@app.route('/business')
+
+@app.route('/business', methods=['GET', 'POST'])
 def show_business():
+    if request.method == 'POST':
+        save_search()
     return render_template('business.html')
 
-@app.route('/computer')
+
+@app.route('/computer', methods=['GET', 'POST'])
 def show_computer():
+    if request.method == 'POST':
+        save_search()
     return render_template('computer.html')
 
-@app.route('/architecture')
+
+@app.route('/architecture', methods=['GET', 'POST'])
 def show_architecture():
+    if request.method == 'POST':
+        save_search()
     return render_template('Architecture.html')
 
-@app.route('/life')
+
+@app.route('/life', methods=['GET', 'POST'])
 def show_life():
+    if request.method == 'POST':
+        save_search()
     return render_template('life.html')
 
-@app.route('/community')
+
+@app.route('/community', methods=['GET', 'POST'])
 def show_community():
+    if request.method == 'POST':
+        save_search()
     return render_template('community.html')
 
-@app.route('/construction')
+
+@app.route('/construction', methods=['GET', 'POST'])
 def show_construction():
+    if request.method == 'POST':
+        save_search()
     return render_template('construction.html')
 
-@app.route('/legal')
+
+@app.route('/legal', methods=['GET', 'POST'])
 def show_legal():
+    if request.method == 'POST':
+        save_search()
     return render_template('legal.html')
 
-@app.route('/educational')
+
+@app.route('/educational', methods=['GET', 'POST'])
 def show_educational():
+    if request.method == 'POST':
+        save_search()
     return render_template('educational.html')
 
-@app.route('/arts')
+
+@app.route('/arts', methods=['GET', 'POST'])
 def show_arts():
+    if request.method == 'POST':
+        save_search()
     return render_template('arts.html')
 
-@app.route('/healthcarepractitioners')
+
+@app.route('/healthcarepractitioners', methods=['GET', 'POST'])
 def show_healthcarepractitioners():
+    if request.method == 'POST':
+        save_search()
     return render_template('healthcarepractitioners.html')
 
-@app.route('/healthcaresupport')
+
+@app.route('/healthcaresupport', methods=['GET', 'POST'])
 def show_healthcaresupport():
+    if request.method == 'POST':
+        save_search()
     return render_template('healthcaresupport.html')
 
-@app.route('/protective')
+
+@app.route('/protective', methods=['GET', 'POST'])
 def show_protective():
+    if request.method == 'POST':
+        save_search()
     return render_template('protective.html')
 
-@app.route('/food')
+
+@app.route('/food', methods=['GET', 'POST'])
 def show_food():
+    if request.method == 'POST':
+        save_search()
     return render_template('food.html')
 
-@app.route('/building')
+
+@app.route('/building', methods=['GET', 'POST'])
 def show_building():
+    if request.method == 'POST':
+        save_search()
     return render_template('building.html')
 
-@app.route('/personal')
+
+@app.route('/personal', methods=['GET', 'POST'])
 def show_personal():
+    if request.method == 'POST':
+        save_search()
     return render_template('personal.html')
 
-@app.route('/sales')
+
+@app.route('/sales', methods=['GET', 'POST'])
 def show_sales():
+    if request.method == 'POST':
+        save_search()
     return render_template('sales.html')
 
 
-@app.route('/office')
+@app.route('/office', methods=['GET', 'POST'])
 def show_office():
+    if request.method == 'POST':
+        save_search()
     return render_template('office.html')
 
-@app.route('/farming')
+
+@app.route('/farming', methods=['GET', 'POST'])
 def show_farming():
+    if request.method == 'POST':
+        save_search()
     return render_template('farming.html')
 
-@app.route('/installation')
+
+@app.route('/installation', methods=['GET', 'POST'])
 def show_installation():
+    if request.method == 'POST':
+        save_search()
     return render_template('installation.html')
 
-@app.route('/production')
+
+@app.route('/production', methods=['GET', 'POST'])
 def show_production():
+    if request.method == 'POST':
+        save_search()
     return render_template('production.html')
 
-@app.route('/transportation')
+
+@app.route('/transportation', methods=['GET', 'POST'])
 def show_transportation():
+    if request.method == 'POST':
+        save_search()
     return render_template('transportation.html')
 
 
-#/stateMap/main is the default map.
+# /stateMap/main is the default map.
 # upon clicking a state, javascript calls the /stateMap/id route where id is the 2-letter state code  e.g. stateMap/FL
 # and flask serves the appropriate data
 
 @app.route('/stateMap/<id>')
 def show_stateMap(id):
     if id == "main":
-        return render_template('stateMap.html') 
-    return render_template('stateData/'+id+'.html')
+        return render_template('stateMap.html')
+    return render_template('stateData/' + id + '.html')
+
 
 '''
 @app.route('/')
@@ -176,8 +239,9 @@ def app_world():
     return 'app, World!'
 '''
 if __name__ == '__main__':
-   # app = Flask(__name__)
-    #app.register_blueprint(app, url_prefix='/')
+    # app = Flask(__name__)
+    # app.register_blueprint(app, url_prefix='/')
 
     app.run()
 
+# login page reference:https://codeshack.io/login-system-python-flask-mysql/
