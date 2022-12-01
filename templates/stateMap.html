@@ -54,8 +54,11 @@
       Plotly.newPlot("myDiv", data, layout, {showLink: false}).then(gd => {
   gd.on('plotly_click', d => {
     var pt = (d.points || [])[0]
-    console.log(pt.location)
-    window.location = "http://127.0.0.1:5000/florida";
+   // console.log(pt.location)
+    var newAddress = "http://127.0.0.1:5000/stateMap/"+pt.location; 
+    console.log(newAddress)
+    window.location = newAddress;
+    
 
 
   })
