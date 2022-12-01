@@ -23,7 +23,7 @@ fig.write_html("templates/testmap.html")
 #testing HERE
 
 df2 = pd.read_csv('stateInfo.csv')
-df2 = df2.loc[df2['title'] == "Life, Physical, and Social Science Occupations"]
+df2 = df2.loc[df2['title'] == "Transportation and Material Moving Occupations"]
 
 fig2 = go.Figure(data=go.Choropleth(
     locations=df2['statecode'], # Spatial coordinates
@@ -35,8 +35,8 @@ fig2 = go.Figure(data=go.Choropleth(
 ))
 
 fig2.update_layout(
-    title_text = 'Life, Physical, and Social Science Occupations',
+    title_text = 'Transportation and Material Moving Occupations',
     geo_scope='usa', # limit map scope to USA
 
 )
-fig2.write_html("templates/life.html" )
+fig2.write_html("templates/transportation.html" )
