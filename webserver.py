@@ -1,97 +1,161 @@
 from flask import Flask, Blueprint, render_template
-hello = Blueprint('hello', __name__)
+from flask import Flask, request, render_template,redirect, url_for
+import pickle
 
-@hello.route('/')
+app = Flask(__name__)
+accounts = dict()
+mySearch = list()
+
+# test account
+accounts['softwareengineers'] = 'makemoney'
+
+
+@app.route('/login')
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    name = ''
+    pwd = ''
+    if request.method == 'POST':
+        name = request.form['username']
+        pwd = request.form['password']
+        # if username does not exist
+        if name not in accounts:
+            return render_template('login.html', msg='Invalid Username')
+        # if password invalid
+        elif accounts[name] != pwd:
+            return render_template('login.html', msg='Invalid Password')
+        # if username and password both are correct
+        elif name in accounts and accounts[name] == pwd:
+            # set the homepage here
+            # direct to the homepage
+            #return render_template('homepage.html')
+            return redirect("http://127.0.0.1:5000/", code=302)
+            #return show_homepage()
+    return render_template('login.html')
+
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+    newName = ''
+    newPwd = ''
+    if request.method == 'POST':
+        newName = request.form['username']
+        newPwd = request.form['password']
+        # if username is blank
+        if newName == '':
+            return render_template('register.html', msg='Invalid Username!')
+        # if username already in the accounts
+        elif newName in accounts:
+            return render_template('register.html', msg='Username Already Exists!')
+        # if password is blank
+        elif newName not in accounts and newPwd == '':
+            return render_template('register.html', msg='Invalid Password!')
+        # add new username to the accounts
+        else:
+            accounts[newName] = newPwd
+            return render_template('register.html', msg='Successfully Signed Up!')
+    return render_template('register.html')
+
+#Need to incorporate this save function
+'''
+@app.route('/pythonProject/templates/homepage', methods=['GET', 'POST'])
 def home():
-    return render_template('homepage.html')
-   # return 'Hello, World!'
+    if request.method == 'POST':
+        page = request.form['save_search']
+        if page not in mySearch:
+            mySearch.append(page)
+    return render_template('homepage.html', data=mySearch)
+'''
 
-@hello.route('management')
+@app.route('/')
+def show_homepage():
+    return render_template('homepage.html')
+
+@app.route('/management')
 def show_management():
     return render_template('management.html')
 
-@hello.route('business')
+@app.route('/business')
 def show_business():
     return render_template('business.html')
 
-@hello.route('computer')
+@app.route('/computer')
 def show_computer():
     return render_template('computer.html')
 
-@hello.route('architecture')
+@app.route('/architecture')
 def show_architecture():
     return render_template('Architecture.html')
 
-@hello.route('life')
+@app.route('/life')
 def show_life():
     return render_template('life.html')
 
-@hello.route('community')
+@app.route('/community')
 def show_community():
     return render_template('community.html')
 
-@hello.route('construction')
+@app.route('/construction')
 def show_construction():
     return render_template('construction.html')
 
-@hello.route('legal')
+@app.route('/legal')
 def show_legal():
     return render_template('legal.html')
 
-@hello.route('educational')
+@app.route('/educational')
 def show_educational():
     return render_template('educational.html')
 
-@hello.route('arts')
+@app.route('/arts')
 def show_arts():
     return render_template('arts.html')
 
-@hello.route('healthcarepractitioners')
+@app.route('/healthcarepractitioners')
 def show_healthcarepractitioners():
     return render_template('healthcarepractitioners.html')
 
-@hello.route('healthcaresupport')
+@app.route('/healthcaresupport')
 def show_healthcaresupport():
     return render_template('healthcaresupport.html')
 
-@hello.route('protective')
+@app.route('/protective')
 def show_protective():
     return render_template('protective.html')
 
-@hello.route('food')
+@app.route('/food')
 def show_food():
     return render_template('food.html')
 
-@hello.route('building')
+@app.route('/building')
 def show_building():
     return render_template('building.html')
 
-@hello.route('personal')
+@app.route('/personal')
 def show_personal():
     return render_template('personal.html')
 
-@hello.route('sales')
+@app.route('/sales')
 def show_sales():
     return render_template('sales.html')
 
 
-@hello.route('office')
+@app.route('/office')
 def show_office():
     return render_template('office.html')
 
-@hello.route('farming')
+@app.route('/farming')
 def show_farming():
     return render_template('farming.html')
 
-@hello.route('installation')
+@app.route('/installation')
 def show_installation():
     return render_template('installation.html')
 
-@hello.route('production')
+@app.route('/production')
 def show_production():
     return render_template('production.html')
 
-@hello.route('transportation')
+@app.route('/transportation')
 def show_transportation():
     return render_template('transportation.html')
 
@@ -100,20 +164,20 @@ def show_transportation():
 # upon clicking a state, javascript calls the /stateMap/id route where id is the 2-letter state code  e.g. stateMap/FL
 # and flask serves the appropriate data
 
-@hello.route('stateMap/<id>')
+@app.route('/stateMap/<id>')
 def show_stateMap(id):
     if id == "main":
         return render_template('stateMap.html') 
     return render_template('stateData/'+id+'.html')
 
 '''
-@hello.route('/')
-def hello_world():
-    return 'Hello, World!'
+@app.route('/')
+def app_world():
+    return 'app, World!'
 '''
 if __name__ == '__main__':
-    app = Flask(__name__)
-    app.register_blueprint(hello, url_prefix='/')
+   # app = Flask(__name__)
+    #app.register_blueprint(app, url_prefix='/')
 
     app.run()
 
