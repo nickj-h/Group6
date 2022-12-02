@@ -3,53 +3,88 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
+
 .dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 22px;
-  font-size: 22px;
-  border: none;
+    background-color: turquoise;
+    color: black;
+    padding: 30px;
+    font-size: 22px;
+    text-align: center;
+    border: none;
+    font-family: Calibri;
+    position: center;
+    margin: 10px;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: center;
+    display: block;
+    text-align: center;
 }
 
 .dropdown-content {
   display: none;
-  position: absolute;
   background-color: #f1f1f1;
-  min-width: 210px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+       text-align: center;
 }
 
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
+  display: inline-block;
+       text-align: center;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
 
-.dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown-content a:hover {background-color: #ddd; position: center;}
+
+.dropdown:hover .dropdown-content {display: block;
+text-align: center; position: center;
+}
+
+.dropbtn a:hover {background-color: turquoise;
+display: block; position: center;}
+
+
+header {
+  background-color: turquoise;
+  padding: 30px;
+  text-align: center;
+  font-size: 55px;
+  color: black;
+    font-family: Calibri;
+}
+head2 {text-align: center;
+    font-family: Calibri;
+
+}
+
+head3 {text-align: center;
+    font-family: Calibri;
+    font-size: 30px;
+}
+
+post {text-align: center;  font-family: Calibri;}
 
 </style>
 </head>
 <body>
-
-<h2>Select Job Category</h2>
-<p>Hover the mouse over the button to display the menu</p>
+<header><h2>Realwork</h2></header>
+<head3><h3>Select Job Category</h3></head3>
+<post><p> Hover the mouse over the button to display the menu</p></post>
 
 <div class="dropdown">
-  <button class="dropbtn">Select Country Map</button>
+ <button class="dropbtn">Select Country Map</button>
   <div class="dropdown-content">
+
+
       <a href="/management">Management Occupations</a>
-      <a href="/business">Business and Financial Operations Occupations </a>
+      <a href="/business">Business and Financial Operations Occupations</a>
       <a href="/computer">Computer and Mathematical Occupations</a>
       <a href="/architecture">Architecture and Engineering Occupations</a>
       <a href="/life">Life, Physical, and Social Science Occupations</a>
@@ -67,18 +102,26 @@
       <a href="/office">Office and Administrative Support Occupations</a>
       <a href="/farming">Farming, Fishing, and Forestry Occupations</a>
       <a href="/construction">Construction and Extraction Occupations</a>
-      <a href="/installation">Installation, Maintenance, and Repair Occupations	</a>
+      <a href="/installation">Installation, Maintenance, and Repair Occupations</a>
       <a href="/production">Production Occupations</a>
       <a href="/transportation">Transportation and Material Moving Occupations</a>
 
 
+
   </div>
 </div>
-  
-<h1><a href="/stateMap/main"> To State Map </a></h1>
+
+<div class="dropdown">
+ <button class="dropbtn">To State Map</button>
+      <div class="dropdown-content">
+      <a href="/stateMap/main">State Map</a>
+      </div>
+</div>
+
 <h4>Search History</h4>
 {% for item in data %}
 <p> {{ item }} </p>
 {% endfor %}
+
 </body>
 </html>
