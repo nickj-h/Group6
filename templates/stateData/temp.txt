@@ -1,1 +1,3 @@
 
+Tables reference:
+https://plotly.com/python/table/
