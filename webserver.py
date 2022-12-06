@@ -1,3 +1,5 @@
+#This is the webserver to handle routing for the web app
+
 from flask import Flask, Blueprint, render_template
 from flask import Flask, request, render_template, redirect, url_for
 import pickle
@@ -6,10 +8,12 @@ app = Flask(__name__)
 accounts = dict()
 mySearch = list()
 
-# test account
+
+#hashmap to hold account/password combos
+# test account for login
 accounts['softwareengineers'] = 'makemoney'
 
-
+#main page
 @app.route('/', methods=['GET', 'POST'])
 def login():
     name = ''
@@ -55,7 +59,7 @@ def register():
             return render_template('register.html', msg='Successfully Signed Up!')
     return render_template('register.html')
 
-
+#Save the current page to the searches
 def save_search():
     page = request.form['save_search']
     if page not in mySearch:
