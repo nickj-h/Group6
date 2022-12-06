@@ -1,6 +1,8 @@
 from flask import Flask, request, render_template, url_for
 import pickle
 
+#This is a file for testing the login functionality
+
 # a dictionary for storing accounts
 accounts = dict()
 mySearch = list()
