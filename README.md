@@ -1,7 +1,7 @@
 
 # Group6
 
-Webserver renders the files in in '/templates' 
+Webserver.py is the the server that renders the files in in '/templates' and handles routing
 
 /homepage is the homepage with selectable filters
 /stateMap/main is the map with clickable states
