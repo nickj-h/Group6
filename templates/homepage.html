@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
-
+/* Dropdown Button Design */
 .dropbtn {
     background-color: turquoise;
     color: black;
@@ -16,13 +16,13 @@
     position: center;
     margin: 10px;
 }
-
+/* Dropdown Button Position */
 .dropdown {
     position: center;
     display: block;
     text-align: center;
 }
-
+/* Dropdown Button Color */
 .dropdown-content {
   display: none;
   background-color: #f1f1f1;
@@ -40,7 +40,7 @@
 }
 
 
-
+/* Dropdown Button Hover Design */
 .dropdown-content a:hover {background-color: #ddd; position: center;}
 
 .dropdown:hover .dropdown-content {display: block;
@@ -50,7 +50,7 @@ text-align: center; position: center;
 .dropbtn a:hover {background-color: turquoise;
 display: block; position: center;}
 
-
+/* Header Design */
 header {
   background-color: turquoise;
   padding: 30px;
@@ -74,13 +74,13 @@ post {text-align: center;  font-family: Calibri;}
 </style>
 </head>
 <body>
-<header><h2>Realwork</h2></header>
-<head3><h3>Select Job Category</h3></head3>
-<post><p> Hover the mouse over the button to display the menu</p></post>
+<header><h2>Realwork</h2></header> <!-- Header -->
+<head3><h3>Select Job Category</h3></head3> <!-- Title -->
+<post><p> Hover the mouse over the button to display the menu</p></post> <!-- Instructions -->
 
 <div class="dropdown">
- <button class="dropbtn">Select Country Map</button>
-  <div class="dropdown-content">
+ <button class="dropbtn">Select Country Map</button> <!-- Displaying button -->
+  <div class="dropdown-content"> <!-- Content in drop down menu with clickable links -->
 
 
       <a href="/management">Management Occupations</a>
@@ -111,14 +111,14 @@ post {text-align: center;  font-family: Calibri;}
   </div>
 </div>
 
-<div class="dropdown">
+<div class="dropdown"> <!-- Drop down for State -->
  <button class="dropbtn">To State Map</button>
       <div class="dropdown-content">
-      <a href="/stateMap/main">State Map</a>
+      <a href="/stateMap/main">State Map</a> <!-- menu content -->
       </div>
 </div>
 
-<h4>Search History</h4>
+<h4>Search History</h4> <!-- Displaying Search history -->
 {% for item in data %}
 <p> {{ item }} </p>
 {% endfor %}
