@@ -21,10 +21,11 @@ fig.write_html("templates/testmap.html")
 
 
 #testing HERE
-
+#load the state data
 df2 = pd.read_csv('stateInfo.csv')
 df2 = df2.loc[df2['title'] == "Transportation and Material Moving Occupations"]
 
+#template for the choropleth map
 fig2 = go.Figure(data=go.Choropleth(
     locations=df2['statecode'], # Spatial coordinates
     z = df2['employment'].astype(float), # Data to be color-coded
@@ -34,9 +35,11 @@ fig2 = go.Figure(data=go.Choropleth(
 
 ))
 
+#get the occupation to generate the map
 fig2.update_layout(
     title_text = 'Transportation and Material Moving Occupations',
     geo_scope='usa', # limit map scope to USA
 
 )
+#writes the file to the templates folder
 fig2.write_html("templates/transportation.html" )

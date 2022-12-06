@@ -37,6 +37,7 @@ def login():
     return render_template('login.html')
 
 
+#routes to the register page
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     newName = ''
@@ -65,11 +66,13 @@ def save_search():
     if page not in mySearch:
         mySearch.append(page)
 
+#routes to the homepage
 
 @app.route('/homepage')
 def show_homepage():
     return render_template('homepage.html', data=mySearch)
 
+#routes to the management page
 
 @app.route('/management', methods=['GET', 'POST'])
 def show_management():
@@ -77,147 +80,147 @@ def show_management():
         save_search()
     return render_template('management.html')
 
-
+#routes to the business page
 @app.route('/business', methods=['GET', 'POST'])
 def show_business():
     if request.method == 'POST':
         save_search()
     return render_template('business.html')
 
-
+#routes to the computer page
 @app.route('/computer', methods=['GET', 'POST'])
 def show_computer():
     if request.method == 'POST':
         save_search()
     return render_template('computer.html')
 
-
+#routes to the architecture page
 @app.route('/architecture', methods=['GET', 'POST'])
 def show_architecture():
     if request.method == 'POST':
         save_search()
     return render_template('Architecture.html')
 
-
+#routes to the life page
 @app.route('/life', methods=['GET', 'POST'])
 def show_life():
     if request.method == 'POST':
         save_search()
     return render_template('life.html')
 
-
+#routes to the community page
 @app.route('/community', methods=['GET', 'POST'])
 def show_community():
     if request.method == 'POST':
         save_search()
     return render_template('community.html')
 
-
+#routes to the construction page
 @app.route('/construction', methods=['GET', 'POST'])
 def show_construction():
     if request.method == 'POST':
         save_search()
     return render_template('construction.html')
 
-
+#routes to the legal page
 @app.route('/legal', methods=['GET', 'POST'])
 def show_legal():
     if request.method == 'POST':
         save_search()
     return render_template('legal.html')
 
-
+#routes to the educational page
 @app.route('/educational', methods=['GET', 'POST'])
 def show_educational():
     if request.method == 'POST':
         save_search()
     return render_template('educational.html')
 
-
+#routes to the arts page
 @app.route('/arts', methods=['GET', 'POST'])
 def show_arts():
     if request.method == 'POST':
         save_search()
     return render_template('arts.html')
 
-
+#routes to the healthcare page for practitioners
 @app.route('/healthcarepractitioners', methods=['GET', 'POST'])
 def show_healthcarepractitioners():
     if request.method == 'POST':
         save_search()
     return render_template('healthcarepractitioners.html')
 
-
+#routes to the healthcare support page
 @app.route('/healthcaresupport', methods=['GET', 'POST'])
 def show_healthcaresupport():
     if request.method == 'POST':
         save_search()
     return render_template('healthcaresupport.html')
 
-
+#routes to the protective page
 @app.route('/protective', methods=['GET', 'POST'])
 def show_protective():
     if request.method == 'POST':
         save_search()
     return render_template('protective.html')
 
-
+#routes to the food page
 @app.route('/food', methods=['GET', 'POST'])
 def show_food():
     if request.method == 'POST':
         save_search()
     return render_template('food.html')
 
-
+#routes to the building page
 @app.route('/building', methods=['GET', 'POST'])
 def show_building():
     if request.method == 'POST':
         save_search()
     return render_template('building.html')
 
-
+#routes to the personal page
 @app.route('/personal', methods=['GET', 'POST'])
 def show_personal():
     if request.method == 'POST':
         save_search()
     return render_template('personal.html')
 
-
+#routes to the sales page
 @app.route('/sales', methods=['GET', 'POST'])
 def show_sales():
     if request.method == 'POST':
         save_search()
     return render_template('sales.html')
 
-
+#routes to the office page
 @app.route('/office', methods=['GET', 'POST'])
 def show_office():
     if request.method == 'POST':
         save_search()
     return render_template('office.html')
 
-
+#routes to the farming page
 @app.route('/farming', methods=['GET', 'POST'])
 def show_farming():
     if request.method == 'POST':
         save_search()
     return render_template('farming.html')
 
-
+#routes to the installation page
 @app.route('/installation', methods=['GET', 'POST'])
 def show_installation():
     if request.method == 'POST':
         save_search()
     return render_template('installation.html')
 
-
+#routes to the production page
 @app.route('/production', methods=['GET', 'POST'])
 def show_production():
     if request.method == 'POST':
         save_search()
     return render_template('production.html')
 
-
+#routes to the transportation page
 @app.route('/transportation', methods=['GET', 'POST'])
 def show_transportation():
     if request.method == 'POST':
